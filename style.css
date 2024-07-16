@@ -1,0 +1,30 @@
+:root {
+	--bs-body-bg: ;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+
+body {
+  background-image: url("images/aurora-borealis-northern-lights-night-sky-mountains-scenery-uhdpaper.com-4K-6.919.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+div.container,
+card
+ {
+  opacity: 0.8;
+}
