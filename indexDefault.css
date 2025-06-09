@@ -1,0 +1,136 @@
+/* -------------------- background gpt black code on bottom -------------------- */
+
+body {
+    background-color: #343541;
+    /* основен фон */
+    color: #ececf1;
+    /* светъл текст */
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------- background gpt black code on top -------------------- */
+
+
+/* for elements in the section that begin with the class container */
+section[class^="container"] {
+    padding: 4rem 2rem;
+}
+
+@media screen and (max-width:1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+    }
+
+    nav [class^="container"] {
+        padding: 0 4rem;
+    }
+}
+
+/* is for  the first section */
+section:not(:first-of-type) {
+    text-align: center;
+}
+
+
+/* for every second section sets this color */
+section:nth-child(2n) {
+    background-color: aquamarine;
+}
+
+/* Navbar */
+
+
+.navbar {
+    background-color: white;
+}
+
+.navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1rem;
+    transition: all 0.5s;
+}
+
+
+@media screen and (max-width:1024px) {
+    .navbar-nav .nav-item {
+        padding: 0 1rem;
+    }
+}
+
+
+
+@media screen and (max-width:576px) {
+    section.hero {
+        text-align: center;
+    }
+
+    section.hero img {
+        width: 70%;
+    }
+
+}
+
+/* HERO */
+
+section.hero {
+
+    padding-top: 72px;
+}
+
+
+/* Services */
+
+/* this is for the icon that doesnt exist */
+
+/* section.services i {
+    font-size: 2rem;
+    margin: 1rem auto 0;
+    border: 2px solid #000000;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} */
+
+section .card,
+.btn-outline-dark {
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+
+}
+
+.btn-outline-dark:hover {
+    box-shadow: 4px 4px #000000;
+}
+
+section .card {
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    max-width: 22rem;
+    margin-inline: auto;
+}
+
+/* About */
+
+@media screen and (max-width:1024px) {
+    section.about .container {
+        width: 60;
+    }
+}
+
+/* Projects */
+
+section.projects .card {
+    max-width: 17rem;
+    text-align: left;
+}
+
+section.projects .card img {
+    max-width: 70%;
+    margin: 1rem auto;
+
+}
