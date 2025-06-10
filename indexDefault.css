@@ -21,19 +21,6 @@ body {
   align-items: center;
 }
 
-/* button like chat gpt */
-
-/* button {
-  background-color: #10a37f;
-  color: white;
-  border: none;
-  padding: 0.8rem 1.5rem;
-  border-radius: 999px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.2s ease;
-} */
-
 button:hover {
   background-color: #0e8c6c;
 }
@@ -43,13 +30,10 @@ section[class^="container"] {
     padding: 4rem 2rem;
 }
 
-
-
 /* is for  the first section */
 section:not(:first-of-type) {
     text-align: center;
 }
-
 
 /* for every second section sets this color */
 section:nth-child(2n) {
